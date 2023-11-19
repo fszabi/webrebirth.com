@@ -1,0 +1,27 @@
+@use "../abstracts/" as *;
+
+.success-body {
+  background: gradients(linear, 900),
+  url("../assets/success.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: size(32);
+
+  .success {
+    padding: size(32);
+  
+    a {
+      display: block;
+    }
+  }
+}
+
+.success-body {
+  background-image: gradients(linear, 900),
+  -webkit-image-set(url("../assets/success.webp") 1x);
+}
+

@@ -1,0 +1,39 @@
+@use "../abstracts/" as *;
+
+.about {
+  --grid-gap: 5rem;
+  --auto-fit-min: 23rem;
+
+  picture,
+  img {
+    object-fit: cover;
+    height: 100%;
+
+    @include mqMax(600px) {
+      aspect-ratio: 1/1;
+    }
+  }
+
+  .skills-list {
+    --flex-column-gap: 3rem;
+    --flex-row-gap: 3rem;
+
+    li {
+      cursor: pointer;
+      background-color: clr(neutral, 100);
+      padding: 1em;
+      border-radius: 50%;
+      width: 4.5rem;
+      height: 4.5rem;
+      transition: transform 500ms;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}
