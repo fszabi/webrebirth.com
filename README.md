@@ -1,2 +1,2 @@
 # This is my company's website
-# Check it out at https://www.webrebirth.hu
+# Check it out at https://www.webrebirth.com
