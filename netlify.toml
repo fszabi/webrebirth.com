@@ -1,12 +1,12 @@
 [[redirects]]
-from = "https://webdesight.hu/*"
-to = "https://www.webrebirth.hu/:splat"
+from = "https://webdesight.com/*"
+to = "https://www.webrebirth.com/:splat"
 status = 301
 force = true
 
 [[redirects]]
-from = "https://www.webdesight.hu/*"
-to = "https://www.webrebirth.hu/:splat"
+from = "https://www.webdesight.com/*"
+to = "https://www.webrebirth.com/:splat"
 status = 301
 force = true
 
