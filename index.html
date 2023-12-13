@@ -75,22 +75,6 @@
     />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- *Google Fonts -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,600;0,700;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- *Font Awesome -->
-
-    <script
-      src="https://kit.fontawesome.com/a24e127f83.js"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- *SCSS -->
 
     <link rel="stylesheet" href="scss/main.scss" />
@@ -124,7 +108,7 @@
         class="container flex-group align-center justify-between"
         data-type="wide"
       >
-        <div class="logo-container flex-group align-center">
+        <div class="flex-group align-center">
           <img
             class="logo"
             src="assets/logo/webrebirth_logo.png"
@@ -181,18 +165,22 @@
       </div>
     </header>
     <main>
-      <section class="hero | clr-neutral-100 bg-neutral-900 ff-accent">
+      <section class="hero | clr-neutral-100 bg-neutral-900">
         <div class="container flow" data-spacing="extra-large" data-type="wide">
           <div class="grid-auto-fit">
-            <h1 class="fs-900 word-wrap">
+            <h1 class="fs-900 fw-700 word-wrap">
               Web <span class="clr-primary-300">Development</span>, responsive
               <span class="clr-primary-300">website</span>s
             </h1>
             <div
               class="flex-group nowrap flex-col bg-neutral-700 border-radius-2 box-shadow-1 padding-20"
             >
-              <i class="fa-solid fa-users"></i>
-              <p>
+              <img
+                class="icon"
+                src="assets/svgs/user-filled.svg"
+                alt="users svg"
+              />
+              <p class="fw-500">
                 I prioritize customer satisfaction. My service is centered
                 around creating a personalized and unique final result that
                 meets your specific needs.
@@ -202,8 +190,12 @@
             <div
               class="flex-group nowrap flex-col bg-neutral-100 clr-neutral-700 border-radius-2 box-shadow-1 padding-20"
             >
-              <i class="fa-solid fa-globe"></i>
-              <p>
+              <img
+                class="icon"
+                src="assets/svgs/world-www.svg"
+                alt="world www svg"
+              />
+              <p class="fw-500">
                 I can help your business get noticed on the internet, so you can
                 connect with potential customers you might not reach otherwise.
               </p>
@@ -239,7 +231,7 @@
             </div>
             <div class="flow" data-spacing="medium">
               <header class="section-header">
-                <h2 class="fs-700 fw-700 ff-accent word-wrap">
+                <h2 class="fs-700 fw-700 word-wrap">
                   What you need to know
                   <span class="clr-neutral-100">about me</span>
                 </h2>
@@ -286,7 +278,7 @@
           </div>
           <div>
             <div class="skills | flow text-center" data-spacing="large">
-              <h3 class="fs-600 ff-accent clr-primary-300">Skills</h3>
+              <h3 class="fs-600 fw-500 clr-primary-300">Skills</h3>
               <ul class="skills-list | flex-group justify-center">
                 <li class="flex-group box-shadow-1">
                   <img src="assets/svgs/html5.svg" alt="html5 logo" />
@@ -311,7 +303,7 @@
       <section id="services" class="services | bg-neutral-900">
         <div class="container" data-type="wide">
           <header class="section-header text-center">
-            <h2 class="fs-700 fw-700 ff-accent word-wrap">
+            <h2 class="fs-700 fw-700 word-wrap">
               How can I help
               <span class="clr-neutral-100">you?</span>
             </h2>
@@ -336,9 +328,7 @@
               </div>
               <div class="flow">
                 <header>
-                  <h3 class="fs-600 ff-accent text-uppercase">
-                    Web Development
-                  </h3>
+                  <h3 class="fs-600 fw-500 text-uppercase">Web Development</h3>
                   <p>
                     Developing responsive and modern websites for both companies
                     and individuals.
@@ -375,7 +365,7 @@
               </div>
               <div class="flow">
                 <header>
-                  <h3 class="fs-600 ff-accent text-uppercase">
+                  <h3 class="fs-600 fw-500 text-uppercase">
                     Domain and hosting
                   </h3>
                   <p>
@@ -410,7 +400,7 @@
               </div>
               <div class="flow">
                 <header>
-                  <h3 class="fs-600 ff-accent text-uppercase">Maintenance</h3>
+                  <h3 class="fs-600 fw-500 text-uppercase">Maintenance</h3>
                   <p>
                     Regular maintenance is key to quickly identifying any
                     potential errors and keeping your website up-to-date,
@@ -441,7 +431,7 @@
               </div>
               <div class="flow">
                 <header>
-                  <h3 class="fs-600 ff-accent text-uppercase">
+                  <h3 class="fs-600 fw-500 text-uppercase">
                     <abbr title="Search Engine Optimization">SEO</abbr>
                   </h3>
                   <p>
@@ -476,7 +466,7 @@
       >
         <div class="container" data-type="wide">
           <header class="section-header text-center">
-            <h2 class="fs-700 fw-700 ff-accent">
+            <h2 class="fs-700 fw-700">
               My
               <span class="clr-neutral-100"> projects </span>
               so far
@@ -489,7 +479,7 @@
               href="https://growthlanding.netlify.app/"
               target="_blank"
             >
-              <h3 class="fs-600 ff-accent">Growth Landing Page</h3>
+              <h3 class="fs-600 fw-500">Growth Landing Page</h3>
               <picture>
                 <source srcset="assets/growth_landing.webp" type="image/webp" />
                 <img
@@ -505,7 +495,7 @@
               href="https://swfitness.netlify.app/"
               target="_blank"
             >
-              <h3 class="fs-600 ff-accent">SW Fitness</h3>
+              <h3 class="fs-600 fw-500">SW Fitness</h3>
               <picture>
                 <source srcset="assets/sw.webp" type="image/webp" />
                 <img class="border-radius-1" src="assets/sw.png" alt="sw" />
@@ -517,7 +507,7 @@
               href="https://nycbarbershop.netlify.app/"
               target="_blank"
             >
-              <h3 class="fs-600 ff-accent">Barber Shop</h3>
+              <h3 class="fs-600 fw-500">Barber Shop</h3>
               <picture>
                 <source srcset="assets/nycbarbershop.webp" type="image/webp" />
                 <img
@@ -533,7 +523,7 @@
               href="https://chef-site.netlify.app/"
               target="_blank"
             >
-              <h3 class="fs-600 ff-accent">Chef Site</h3>
+              <h3 class="fs-600 fw-500">Chef Site</h3>
               <picture>
                 <source srcset="assets/chef.webp" type="image/webp" />
                 <img
@@ -546,7 +536,7 @@
           </div>
           <div class="github">
             <a href="https://github.com/fszabi" target="_blank">
-              <p class="fs-500">GitHub Profile</p>
+              <p class="fs-500 fw-500">GitHub Profile</p>
               <img src="assets/svgs/github.svg" alt="github logo" />
             </a>
           </div>
@@ -557,8 +547,8 @@
 
       <section id="quote" class="bg-neutral-900">
         <div class="container" data-type="wide">
-          <header class="section-header">
-            <h2 class="fs-700 fw-700 ff-accent text-center word-wrap">
+          <header class="section-header text-center">
+            <h2 class="fs-700 fw-700 word-wrap">
               Request a
               <span class="clr-neutral-100">personalized</span>
               quote
@@ -580,9 +570,11 @@
                 <div class="form-group">
                   <label for="name">
                     Name
-                    <i
-                      class="fa-sharp fa-solid fa-star-of-life | clr-primary-300 margin-inline-4"
-                    ></i>
+                    <img
+                      class="icon"
+                      src="assets/svgs/asterisk.svg"
+                      alt="asterisk svg"
+                    />
                   </label>
                   <input
                     id="name"
@@ -596,9 +588,11 @@
                 <div class="form-group">
                   <label for="email">
                     Email address
-                    <i
-                      class="fa-sharp fa-solid fa-star-of-life | clr-primary-300 margin-inline-4"
-                    ></i>
+                    <img
+                      class="icon"
+                      src="assets/svgs/asterisk.svg"
+                      alt="asterisk svg"
+                    />
                   </label>
                   <input
                     id="email"
@@ -622,9 +616,11 @@
                 <div class="form-group">
                   <label for="multi-select">
                     Service
-                    <i
-                      class="fa-sharp fa-solid fa-star-of-life | clr-primary-300 margin-inline-4"
-                    ></i>
+                    <img
+                      class="icon"
+                      src="assets/svgs/asterisk.svg"
+                      alt="asterisk svg"
+                    />
                   </label>
                   <div class="select select--multiple">
                     <select id="multi-select" name="multi-select" required>
@@ -644,9 +640,11 @@
                 <div class="form-group">
                   <label for="message">
                     Message
-                    <i
-                      class="fa-sharp fa-solid fa-star-of-life | clr-primary-300 margin-inline-4"
-                    ></i>
+                    <img
+                      class="icon"
+                      src="assets/svgs/asterisk.svg"
+                      alt="asterisk svg"
+                    />
                   </label>
                   <textarea id="message" name="message" required></textarea>
                 </div>
@@ -655,7 +653,7 @@
                   type="submit"
                   form="contact"
                   value="Submit"
-                  class="btn btn--primary | ff-accent mx-auto"
+                  class="btn btn--primary | mx-auto"
                 >
                   Send
                 </button>
@@ -670,9 +668,9 @@
 
     <footer
       id="contact-me"
-      class="primary-footer | ff-accent bg-neutral-700 clr-neutral-100 text-center"
+      class="primary-footer | bg-neutral-700 clr-neutral-100 text-center"
     >
-      <div class="container flow" data-spacing="extra-large">
+      <div class="container flow | fw-500" data-spacing="extra-large">
         <header class="section-header">
           <h2 class="fs-700 fw-700 word-wrap">
             Get in
@@ -696,19 +694,31 @@
             </div>
 
             <div class="flow" data-spacing="medium">
-              <h3 class="fs-500 clr-primary-300">Contacts</h3>
+              <h3 class="fs-550 clr-primary-300">Contacts</h3>
 
               <div class="contact">
-                <p class="fs-300 phone">
-                  <i class="fa-solid fa-phone | clr-primary-300"></i>
+                <p class="phone">
+                  <img
+                    class="icon"
+                    src="assets/svgs/phone-filled.svg"
+                    alt="phone filled svg"
+                  />
                   <a href="tel:+36202402089"> +36 20 240 2089</a>
                 </p>
-                <p class="fs-300 email">
-                  <i class="fa-solid fa-envelope | clr-primary-300"></i>
+                <p class="email">
+                  <img
+                    class="icon"
+                    src="assets/svgs/mail-filled.svg"
+                    alt="mail filled svg"
+                  />
                   <a href="mailto:szabi@webrebirth.hu">szabi@webrebirth.hu</a>
                 </p>
-                <p class="fs-300">
-                  <i class="fa-solid fa-location-dot | clr-primary-300"></i>
+                <p>
+                  <img
+                    class="icon"
+                    src="assets/svgs/map-pin-filled.svg"
+                    alt="map pin filled svg"
+                  />
                   7150 Bonyhád,
                   <br />
                   Nagy László utca 14.
@@ -717,7 +727,7 @@
             </div>
 
             <nav class="flow" data-spacing="medium">
-              <h3 class="fs-500 clr-primary-300">Navigation</h3>
+              <h3 class="fs-550 clr-primary-300">Navigation</h3>
 
               <ul class="secondary-navigation">
                 <li>
@@ -742,7 +752,11 @@
       <div class="wave wave--unique layer-3"></div>
 
       <button class="btn btn--scroll-top">
-        <i class="fa-solid fa-circle-chevron-up"></i>
+        <img
+          class="icon"
+          src="assets/svgs/chevron-up.svg"
+          alt="chevron up svg"
+        />
         <span class="visually-hidden">Scroll to the top of the page</span>
       </button>
     </footer>
